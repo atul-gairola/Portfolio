@@ -1,9 +1,11 @@
 import React from "react";
-import { createUseStyles } from "react-jss";
+import { createUseStyles, useTheme } from "react-jss";
 import { Link } from "react-router-dom";
+import { useMediaQuery } from "react-responsive";
 
 import Logo from "../Logo";
 import NavLinks from "./components/NavLinks";
+import HamburgerMenu from "./components/HamburgerMenu";
 
 const useStyles = createUseStyles({
   header: {
@@ -21,6 +23,12 @@ const useStyles = createUseStyles({
 
 const Header = () => {
   const classes = useStyles();
+  const { viewports } = useTheme();
+
+  const isSmallTablet = useMediaQuery({
+    query: `(max-device-width: ${viewports.smallTablet})`,
+  });
+
   return (
     <header className={classes.header}>
       <div className={classes.logoContainer}>
@@ -28,7 +36,7 @@ const Header = () => {
           <Logo size={24} />
         </Link>
       </div>
-      <NavLinks />
+      {isSmallTablet ? <HamburgerMenu /> : <NavLinks />}
     </header>
   );
 };
