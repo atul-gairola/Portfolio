@@ -27,8 +27,8 @@ const NavLinks = () => {
       <Link to="/#about-me">
         <li>about me</li>
       </Link>
-      <Link to="/#my-work">
-        <li>my work</li>
+      <Link to="/#projects">
+        <li>projects</li>
       </Link>
       <Link to="/#contact-me">
         <li>contact me</li>
