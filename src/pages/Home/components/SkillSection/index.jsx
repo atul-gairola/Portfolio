@@ -11,6 +11,8 @@ const useStyles = createUseStyles((theme) => ({
     "& > h2": {
       fontSize: "3.2rem",
       marginBottom: "50px",
+      paddingBottom: "10px",
+      borderBottom: `1px solid ${theme.colors.base}`,
     },
     "& > p": {
       fontSize: "1.7rem",
