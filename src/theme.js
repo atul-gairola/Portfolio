@@ -1,7 +1,8 @@
 export const darkTheme = {
   colors: {
-    primary: "#fff",
+    base: "#fff",
     background: "#111111",
+    primary: "#fee52a",
   },
   viewports: {
     mobile: "650px",
