@@ -6,8 +6,8 @@ const useStyles = createUseStyles((theme) => ({
   linksContainer: {
     listStyle: "none",
     display: "grid",
-    gridTemplateColumns: "auto auto auto",
-    gridGap: 30,
+    gridTemplateColumns: "auto auto auto auto",
+    gridGap: 50,
     alignItems: "center",
     "& > a": {
       fontWeight: "bold",
@@ -27,6 +27,9 @@ const NavLinks = () => {
     <ul className={classes.linksContainer}>
       <Link to="/#about-me">
         <li>about me</li>
+      </Link>
+      <Link to="/#skills">
+        <li>skills</li>
       </Link>
       <Link to="/#projects">
         <li>projects</li>
