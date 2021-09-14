@@ -41,6 +41,12 @@ const useStyles = createUseStyles((theme) => ({
       fontSize: "1.2rem",
       cursor: "pointer",
       marginTop: 30,
+      transition: "0.5s",
+      "&:hover": {
+        background: theme.colors.primary,
+        color: theme.colors.background,
+        transform: "translateY(8px)",
+      },
     },
   },
   iconContainer: {

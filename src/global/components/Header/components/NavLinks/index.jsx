@@ -11,6 +11,7 @@ const useStyles = createUseStyles((theme) => ({
     alignItems: "center",
     "& > a": {
       fontWeight: "bold",
+      fontSize: "1.1rem",
       paddingBottom: 5,
       borderBottom: "2px solid transparent",
       "&:hover": {

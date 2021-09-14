@@ -5,6 +5,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 1px solid #fff;
+  border-radius: 20px;
 }
 
 body {
