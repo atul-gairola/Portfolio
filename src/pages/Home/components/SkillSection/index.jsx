@@ -27,6 +27,7 @@ const useStyles = createUseStyles((theme) => ({
   skill: {
     background: theme.colors.base,
     color: theme.colors.background,
+    boxShadow: "1px 1px 20px rgba(0,0,0,1)",
     padding: "10px 30px",
     fontSize: "1.2rem",
     fontWeight: "bold",

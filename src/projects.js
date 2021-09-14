@@ -4,6 +4,7 @@ export const projects = [
     github: [],
     prod: "",
     skills: ["NextJs", "NodeJS", "Express", "MongoDB"],
+    images: ["IdeaToIPO"],
     gist: "A complete listing platform for startups and companies. All the information about different startups. A concept similar to angel.co.",
     description: [
       "A complete listing platform for startups and companies. It provides information about more than 10,000 companies (as of now) to the public giving them a greater reach and valuable information about them to investors and talents.",
@@ -17,6 +18,7 @@ export const projects = [
     github: ["https://github.com/atul-gairola/what-to-watch-today"],
     prod: "https://atul-gairola.github.io/what-to-watch-today/",
     skills: ["ReactJS", "Firebase"],
+    images: ["WhatToWatchTodaySS1"],
     gist: "Know the feeling of scrolling through OTT platforms everday for 30-40 mins just to choose the same old show to watch. This application is like a movie or show roulette, let it choose what you should watch today and make movie nights more exciting.",
     description: [
       "A fun web app which decides a movie or a tv for the user to watch to save them the trouble of deciding what to watch everyday. User can set some filters or leave it completely random.",
@@ -33,6 +35,7 @@ export const projects = [
     ],
     prod: "",
     skills: ["ReactJs", "NodeJS", "Express", "MongoDB"],
+    images: ["LinkedInCRMImage"],
     gist: "A chromium extension which acts as a dashboard for your Linkedin connections. Get a clean tabular UI showing all your connections, send them messages from the dashboard, add tags to them, disconnect old connections and much more.",
     description: [
       "This is a complete clone of LeadDelta chrome extension which is basically a LinkedIn Dashbords to access your network easily. Send mulitple messages, add tags, download connections data.",
