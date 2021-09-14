@@ -8,6 +8,7 @@ const useStyles = createUseStyles((theme) => ({
     height: "100vh",
     display: "grid",
     placeContent: "center",
+    marginBottom: 50,
     "& > h2": {
       fontSize: "3.2rem",
       marginBottom: "50px",

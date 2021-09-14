@@ -9,6 +9,7 @@ const useStyles = createUseStyles((theme) => ({
     padding: "200px 0",
     textAlign: "center",
     height: "100vh",
+    marginBottom: 50,
     display: "grid",
     placeContent: "center",
     "& > h2": {

@@ -9,6 +9,7 @@ const useStyles = createUseStyles((theme) => ({
     display: "grid",
     gridTemplateColumns: "2fr 1fr",
     gridGap: 100,
+    marginBottom: 50,
     position: "relative",
     paddingBottom: "80px",
     height: "calc(100vh - 175px)",
