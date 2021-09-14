@@ -33,7 +33,6 @@ const useStyles = createUseStyles((theme) => ({
     fontWeight: "bold",
     marginRight: "20px",
     marginBottom: "20px",
-    cursor: "pointer",
     "&:hover": {
       transform: "translateY(-10px)",
     },

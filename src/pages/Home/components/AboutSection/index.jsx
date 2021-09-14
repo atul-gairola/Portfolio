@@ -24,7 +24,7 @@ function AboutSection() {
   const classes = useStyles();
 
   return (
-    <section id="about" className={classes.aboutSectionContainer}>
+    <section id="about-me" className={classes.aboutSectionContainer}>
       <h2>About me</h2>
       <p>
         I am Atul Gairola, a MERN stack web developer and designer from India. I
