@@ -25,18 +25,18 @@ const NavLinks = () => {
   const classes = useStyles();
   return (
     <ul className={classes.linksContainer}>
-      <Link to="/#about-me">
+      <a href="#about-me">
         <li>about me</li>
-      </Link>
-      <Link to="/#skills">
+      </a>
+      <a href="#skills">
         <li>skills</li>
-      </Link>
-      <Link to="/#projects">
+      </a>
+      <a href="#projects">
         <li>projects</li>
-      </Link>
-      <Link to="/#contact-me">
+      </a>
+      <a href="#contact-me">
         <li>contact me</li>
-      </Link>
+      </a>
     </ul>
   );
 };

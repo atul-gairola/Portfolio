@@ -2,6 +2,7 @@ import React from "react";
 import { createUseStyles } from "react-jss";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const useStyles = createUseStyles({
   main: {
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
     <div>
       <Header />
       <main className={classes.main}>{children}</main>
+      <Footer />
     </div>
   );
 };

@@ -70,7 +70,9 @@ const HeroSection = () => {
           From <span>personal websites</span> to <span>complex webapps</span>{" "}
           and everything in between
         </p>
-        <button>Contact me</button>
+        <a href="#contact-me">
+          <button>Contact me</button>
+        </a>
       </div>
       <div>
         <img src={HeroImage} alt="Atul Gairola" />
