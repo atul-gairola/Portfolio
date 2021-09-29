@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { createUseStyles } from "react-jss";
 import ReactModal from "react-modal";
-import { ReactComponent as GithubIcon } from "../../../../../assets/images/githubIcon.svg";
-import { ReactComponent as ExternalLinkIcon } from "../../../../../assets/images/externalLinkIcon.svg";
-import WhatToWatchTodaySS1 from "../../../../../assets/images/whatToWatchToday1.png";
-import LinkedInCRMImage from "../../../../../assets/images/linkedInCrm.png";
-import IdeaToIPO from "../../../../../assets/images/ideaToIpo.jpeg";
+import { ReactComponent as GithubIcon } from "../../../assets/images/githubIcon.svg";
+import { ReactComponent as ExternalLinkIcon } from "../../../assets/images/externalLinkIcon.svg";
+import WhatToWatchTodaySS1 from "../../../assets/images/whatToWatchToday1.png";
+import LinkedInCRMImage from "../../../assets/images/linkedInCrm.png";
+import IdeaToIPO from "../../../assets/images/ideaToIpo.jpeg";
 
 const useStyles = createUseStyles((theme) => ({
   projectCard: {

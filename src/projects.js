@@ -67,4 +67,26 @@ export const projects = [
       "Made the UI responsive for all device sizes.",
     ],
   },
+  {
+    name: "Covid India Dashboard",
+    github: ["https://github.com/atul-gairola/covid-19-india-dashboard"],
+    prod: "https://atul-gairola.github.io/covid-19-india-dashboard/",
+    skills: ["ReactJS", "RestAPI"],
+    gist: "React dashboard showing covid stats in India and all of its states. The data is consumed through a public REST API and then managed across the application.",
+    description: [
+      "React dashboard showing covid stats in India and all of its states. The data is consumed through a public REST API and then managed across the application.",
+      "Made the UI responsive for all device sizes.",
+    ],
+  },
+  {
+    name: "Covid India Dashboard",
+    github: ["https://github.com/atul-gairola/covid-19-india-dashboard"],
+    prod: "https://atul-gairola.github.io/covid-19-india-dashboard/",
+    skills: ["ReactJS", "RestAPI"],
+    gist: "React dashboard showing covid stats in India and all of its states. The data is consumed through a public REST API and then managed across the application.",
+    description: [
+      "React dashboard showing covid stats in India and all of its states. The data is consumed through a public REST API and then managed across the application.",
+      "Made the UI responsive for all device sizes.",
+    ],
+  },
 ];
