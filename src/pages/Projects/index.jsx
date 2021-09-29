@@ -23,7 +23,7 @@ const Projects = () => {
   const classes = useStyles();
 
   return (
-    <Layout>
+    <Layout showLinks={false}>
       <div className={classes.heading}>
         <h1>Projects</h1>
       </div>

@@ -10,11 +10,11 @@ const useStyles = createUseStyles({
   },
 });
 
-const Layout = ({ children }) => {
+const Layout = ({ children, showLinks = true }) => {
   const classes = useStyles();
   return (
     <div>
-      <Header />
+      <Header showLinks={showLinks} />
       <main className={classes.main}>{children}</main>
       <Footer />
     </div>

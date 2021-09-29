@@ -21,7 +21,7 @@ const useStyles = createUseStyles({
   },
 });
 
-const Header = () => {
+const Header = ({ showLinks }) => {
   const classes = useStyles();
   const { viewports } = useTheme();
 
@@ -36,7 +36,7 @@ const Header = () => {
           <Logo size={24} />
         </Link>
       </div>
-      {isSmallTablet ? <HamburgerMenu /> : <NavLinks />}
+      {showLinks ? isSmallTablet ? <HamburgerMenu /> : <NavLinks /> : null}
     </header>
   );
 };
