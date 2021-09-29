@@ -6,7 +6,7 @@ const useStyles = createUseStyles((theme) => ({
   linksContainer: {
     listStyle: "none",
     display: "grid",
-    gridTemplateColumns: "auto auto auto auto",
+    gridTemplateColumns: "auto auto auto auto auto",
     gridGap: 50,
     alignItems: "center",
     "& > a": {
@@ -33,6 +33,9 @@ const NavLinks = () => {
       </a>
       <a href="#projects">
         <li>projects</li>
+      </a>
+      <a href="#blogs">
+        <li>blogs</li>
       </a>
       <a href="#contact-me">
         <li>contact me</li>
